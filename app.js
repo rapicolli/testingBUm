@@ -292,7 +292,7 @@ function resetResults(){
         var i = current+1
         if(current < 11){
           $(".nextBtn").removeClass("hide");
-          displayVideo(next, i);
+          displaySong(next, i);
         }
   }
 
